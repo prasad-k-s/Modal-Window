@@ -3,7 +3,7 @@
 const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
-const btnsOpenModal = document.querySelectorAll('.show-modal');
+const btnsOpenModal = document.querySelector('.show-modal');
 
 const openModal = () => {
   modal.classList.remove('hidden');
@@ -17,10 +17,7 @@ const closeModal = () => {
   modal.style.transform = 'scale(.3) translate(-50%, -50%)';
 };
 
-btnsOpenModal.forEach(btn => {
-  btn.addEventListener('click', openModal);
-});
-
+btnsOpenModal.addEventListener('click', openModal);
 btnCloseModal.addEventListener('click', closeModal);
 
 document.addEventListener('keydown', e => {

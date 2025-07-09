@@ -43,6 +43,9 @@ body {
   border: none;
   background: none;
 }
+.close-modal-container {
+  margin-bottom: 2rem;
+}
 
 h1 {
   font-size: 2.5rem;
@@ -62,6 +65,9 @@ p {
   left: 50%;
   transform: scale(0.3) translate(-50%, -50%);
   width: 70%;
+  max-height: 75%;
+
+  overflow: scroll;
 
   background-color: white;
   padding: 6rem;
@@ -87,4 +93,15 @@ p {
 .hidden {
   opacity: 0;
   visibility: hidden;
+}
+
+@media (max-width: 700px) {
+  .modal {
+    width: 85%;
+  }
+}
+@media (max-width: 600px) {
+  .modal {
+    padding: 6rem 3rem;
+  }
 }
