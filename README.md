@@ -6,8 +6,7 @@ A reusable modal (popup) component built with vanilla JavaScript, HTML and CSS.
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-**🔗 Live demo:** [
-prasad-modal-window.netlify.app](#)
+**🔗 Live demo:** [https://prasad-modal-window.netlify.app/](#)
 
 ---
 
